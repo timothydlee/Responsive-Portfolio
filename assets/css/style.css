@@ -1,3 +1,7 @@
+/*===================================
+				General
+===================================*/
+
 body {
 	background: url("../images/seigaiha.png");
 	font-size: 18px;
@@ -9,8 +13,6 @@ body {
 * {
 	box-sizing: border-box;
 }
-
-/*general*/
 
 .container {
 	width: 100%;
@@ -43,7 +45,9 @@ h3 {
 	font-size: 22px;
 }
 
-/*header*/
+/*===================================
+			Header Style
+===================================*/
 
 #masthead {
 	background: #fff;
@@ -68,6 +72,10 @@ h3 {
 	font-size: 30px;
 	text-decoration: none;
 }
+
+/*===================================
+			Navbar Style
+===================================*/
 nav {
 	float: right;
 	margin-top: 25px;
@@ -85,7 +93,9 @@ nav a:first-child {
 	border-left: 0 none;
 }
 
-/*footer*/
+/*===================================
+			Footer Style
+===================================*/
 
 footer {
 	background: #666;
@@ -98,7 +108,9 @@ footer {
 	text-align: center;
 }
 
-/*sidebar*/
+/*=========================================================
+				Sidebar Style Connect with Me
+=========================================================*/
 
 .sidebar {
 	background: #fff;
@@ -126,7 +138,9 @@ h3,
 	margin-right: 0;
 }
 
-/*main*/
+/*===================================
+		Main Container Style
+===================================*/
 
 #main-container {
 	padding-top: 130px;
@@ -141,7 +155,9 @@ h3,
 	border: 1px solid #ddd;
 }
 
-/*portfolio page*/
+/*===================================
+		Portfolio Page Style
+===================================*/
 
 .work {
 	width: 274px;
@@ -179,7 +195,9 @@ h3,
 	margin-right: 25px;
 }
 
-/*contact page*/
+/*===================================
+		Contact Page Style
+===================================*/
 
 #contact-form ul {
 	margin-bottom: 20px;
@@ -214,7 +232,9 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-/*980px Media Query*/
+/*===================================
+		980px Media Query Style
+===================================*/
 @media screen and (max-width: 980px){
 	.main-section{
 		max-width: 50%;
@@ -244,7 +264,9 @@ input[type=submit] {
 	}
 }
 
-/*768px Media Query*/
+/*===================================
+		768px Media Query Style
+===================================*/
 @media screen and (max-width: 768px){
 	.main-section{
 		max-width: 95%;
@@ -287,7 +309,9 @@ input[type=submit] {
 	}
 }
 
-/*640PX MEDIA QUERY*/
+/*===================================
+		640px Media Query Style
+===================================*/
 
 @media screen and (max-width: 640px){
 	.container{
